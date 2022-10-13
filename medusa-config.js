@@ -33,7 +33,7 @@ const DATABASE_URL =
   process.env.DATABASE_URL || "postgres://localhost/medusa-store";
 
 // Medusa uses Redis, so this needs configuration as well
-const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
+const REDIS_URL = process.env.REDIS_URL || "redis://:75cd37ec926444c0912e062959818add@eu2-positive-mollusk-31016.upstash.io:31016";
 
 // Stripe keys
 const STRIPE_API_KEY = process.env.STRIPE_API_KEY || "";
